@@ -1,5 +1,6 @@
 import styles from "./todolist.module.css";
 import TodoItem from "./TodoItem";
+//Added new comments
 export default function TodoList({ todos, setTodos }) {
   const sortedTodos = todos
     .slice()
